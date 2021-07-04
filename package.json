@@ -1,0 +1,16 @@
+{
+  "name": "parceljs-html-scss-es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:aprisniak/parceljs-html-scss-es6.git",
+  "author": "Andrey Prisniak <aprisniak@lectrum.io>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.35.1"
+  }
+}
